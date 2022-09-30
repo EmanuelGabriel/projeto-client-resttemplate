@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "chave.gw.dev.app-key",
+    "type": "java.lang.String",
+    "description": "A description for 'chave.gw.dev.app-key'"
+  },
+  {
+    "name": "base.uri.sandbox.bb",
+    "type": "java.lang.String",
+    "description": "A description for 'base.uri.sandbox.bb'"
+  },
+  {
+    "name": "base.uri.sandbox-bb",
+    "type": "java.lang.String",
+    "description": "A description for 'base.uri.sandbox-bb'"
+  },
+  {
+    "name": "sandboxbbapi.uriBase",
+    "type": "java.lang.String",
+    "description": "A description for 'sandboxbbapi.uriBase'"
+  },
+  {
+    "name": "sandboxbbapi.chaveGwDevApp",
+    "type": "java.lang.String",
+    "description": "A description for 'sandboxbbapi.chaveGwDevApp'"
+  },
+  {
+    "name": "sandboxbb.registrationId",
+    "type": "java.lang.String",
+    "description": "A description for 'sandboxbb.registrationId'"
+  },
+  {
+    "name": "registrationclientid.registrationId",
+    "type": "java.lang.String",
+    "description": "A description for 'registrationclientid.registrationId'"
+  }
+]}
