@@ -92,8 +92,6 @@ public class ArrecadacaoQRcodeService {
             var url = apiFactoryProperties.getUriBase() + "/arrecadacao-qrcodes?gw-dev-app-key=" + apiFactoryProperties.getChaveGwDevApp();
             log.info("URL: {}", url);
 
-            // var guiaArrecadacaoQrCodesEntityResponseDTO = mapper.map(requestDTO, GuiaArrecadacaoQrCodesEntityResponseDTO.class);
-
             GerarQrCodePagamentoPixResponseDTO dto = restTemplate.exchange(url, HttpMethod.POST, httpEntityRequest, GerarQrCodePagamentoPixResponseDTO.class).getBody();
 
             return dto;
